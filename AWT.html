@@ -5,16 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Adam's Web Tools</title>
     <style>
+      * { box-sizing: border-box; }
       html, body {
         margin:0;
-        padding:15px;
+        padding:0;
+        font-family: monospace;
       }
+      body { padding: 15px; }
       ul {
         padding: 0;
       }
       li {
         list-style-type: none;
         padding: 0;
+      }
+      #nav ul li {
+        width: 20%;
+        float: left;
+        border: 1px solid black;
+      }
+      #nav ul li a {
+        display: block;
+        padding: 20px;
+        color: black;
+        font-size: 15px;
+        text-decoration: none;
+        text-transform: uppercase;
+      }
+      .section {
+        float: left;
+        width: 20%;
       }
     </style>
 
